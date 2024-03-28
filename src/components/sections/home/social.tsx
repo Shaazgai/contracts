@@ -38,7 +38,7 @@ export default function Soicial() {
             </button>
           </div>
         </div>
-        <div className="w-[40%] border border-gray-400 h-[80vh] rounded-3xl">
+        <div className="w-[40%] border border-gray-800 h-[80vh] rounded-3xl bg-[#0c0c0b]">
           <div className="h-[11vh] flex p-5 border-b border-b-gray-500">
             <div className="border border-yellow-400 pt-2.5 pb-2.5 pr-2.5 pl-2.5 rounded-xl">
               <span>🤓</span>
@@ -51,7 +51,7 @@ export default function Soicial() {
               </p>
             </div>
           </div>
-          <div className="p-7 border border-gray-400 h-[58vh]">
+          <div className="p-7 border border-gray-800 h-[58vh]">
             <div className="flex">
               <div className="">
                 <Image
@@ -62,12 +62,12 @@ export default function Soicial() {
                   className="pt-12"
                 />
               </div>
-              <div className="w-[334px] h-[81px] border border-gray-400 bg-[#2e2c14] rounded-xl rounded-bl-none ml-3 p-[12px]">
+              <div className="w-[334px] h-[81px] border border-gray-800 bg-[#2e2c14] rounded-xl rounded-bl-none ml-3 p-[12px]">
                 I want a replacement for my bag and a refund on the boots.
               </div>
             </div>
             <div className="flex mt-7">
-              <div className="w-[334px] h-[111px] border border-gray-400 bg-[#2e2c14] rounded-xl rounded-br-none p-[12px]">
+              <div className="w-[334px] h-[111px] border-none bg-gradient-to-tr from-rgba-green-600 to-rgba-pink-100 rounded-2xl rounded-br-none p-[12px]">
                 Hey Nora 👋 I got you! Do you want the same color for the bag? I
                 can also exchange the boots. What do you think? 😊
               </div>
@@ -87,7 +87,7 @@ export default function Soicial() {
                   className="pt-14"
                 />
               </div>
-              <div className="w-[334px] h-[91px] border border-gray-400 bg-[#2e2c14] rounded-xl rounded-bl-none ml-3 p-[12px]">
+              <div className="w-[334px] h-[91px] border border-gray-800 bg-[#2d2a14] rounded-xl rounded-bl-none ml-3 p-[12px]">
                 I wil have just the bag replaced as it arrived scratched. I will
                 return the boots for a refund.
               </div>

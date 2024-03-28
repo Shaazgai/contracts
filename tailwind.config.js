@@ -42,6 +42,9 @@ module.exports = {
         },
         extend: {
             colors: {
+                'rgba-gray-300': 'rgba(254, 125, 194, 0.3)',
+                'rgba-green-600': 'rgba(104, 114, 50, 0.8)',
+                'rgba-pink-100': 'rgba(253, 207, 199, 0.15)',
                 border: 'hsl(var(--border))',
                 input: 'hsl(var(--input))',
                 ring: 'hsl(var(--ring))',

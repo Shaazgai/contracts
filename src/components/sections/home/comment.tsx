@@ -6,16 +6,23 @@ import { Tabs, Image } from '@mantine/core';
 export default function Comment() {
   return (
     <>
-      <section className="h-screen">
+      <section className="h-[140vh] mt-auto pt-10">
+        <button className="flex justify-center items-center border border-[#eeeeee] pt-3 pb-3 pl-5 pr-5 rounded-full m-auto">
+          <p className="bg-[#343434] w-[14px] h-[14px] rounded-full"></p>{' '}
+          <p className="ml-3 text-black">The world most human-like AI.</p>
+        </button>
+        <h2 className="font-semibold text-[54.08px] m-auto text-center">
+            People are talking
+          </h2>
         <Tabs defaultValue="gallery">
-          <Tabs.List className="flex justify-around pt-10 pb-10 pl-36 pr-36">
+          <Tabs.List className="flex justify-around pt-3 pb-10 pl-36 pr-36">
             <Tabs.Tab value="logo_1">
               <Image
                 src="/img/first/main_logo.png"
                 alt="Main Logo"
                 width={120}
                 height={20}
-                className="pt-5"
+                className="pt-5 hover:scale-110 opacity-100"
               />
             </Tabs.Tab>
             <Tabs.Tab value="logo_2">
@@ -24,7 +31,7 @@ export default function Comment() {
                 alt="Main Logo"
                 width={120}
                 height={20}
-                className="pt-5"
+                className="pt-5 hover:scale-110 opacity-55 hover:opacity-100"
               />
             </Tabs.Tab>
             <Tabs.Tab value="logo_3">
@@ -33,7 +40,7 @@ export default function Comment() {
                 alt="Main Logo"
                 width={120}
                 height={20}
-                className="pt-5"
+                className="pt-5 hover:scale-110 opacity-55 hover:opacity-100"
               />
             </Tabs.Tab>
             <Tabs.Tab value="logo_4">
@@ -42,7 +49,7 @@ export default function Comment() {
                 alt="Main Logo"
                 width={120}
                 height={20}
-                className="pt-5"
+                className="pt-5 hover:scale-110 opacity-55 hover:opacity-100"
               />
             </Tabs.Tab>
             <Tabs.Tab value="logo_5">
@@ -51,7 +58,7 @@ export default function Comment() {
                 alt="Main Logo"
                 width={120}
                 height={20}
-                className="pt-5"
+                className="pt-5 hover:scale-110 opacity-55 hover:opacity-100"
               />
             </Tabs.Tab>
             <Tabs.Tab value="logo_6">
@@ -60,7 +67,7 @@ export default function Comment() {
                 alt="Main Logo"
                 width={120}
                 height={20}
-                className="pt-5"
+                className="pt-5 hover:scale-110 opacity-55 hover:opacity-100"
               />
             </Tabs.Tab>
             <Tabs.Tab value="logo_7">
@@ -69,7 +76,7 @@ export default function Comment() {
                 alt="Main Logo"
                 width={120}
                 height={20}
-                className="pt-5"
+                className="pt-5 hover:scale-110 opacity-55 hover:opacity-100"
               />
             </Tabs.Tab>
           </Tabs.List>
